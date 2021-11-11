@@ -9,6 +9,7 @@ RUN apt-get update -yy && \
     apt-get upgrade -yy && \
     apt-get install -yy --no-install-recommends \
     curl \
+    git \
     libmemcached-dev \
     libz-dev \
     libpq-dev \
